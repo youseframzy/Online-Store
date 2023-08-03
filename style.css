@@ -1,0 +1,44 @@
+:root{
+    --text-color:#ff686b;
+    --primary-color:#000000;
+}
+.text-color{
+    color: var(--text-color);
+}
+.bg{
+    background: var(--primary-color);
+}
+.border{
+    border: 2px solid #ffffff;
+}
+.img{
+    height: 600px;
+}
+.icon{
+    color: #ffffff;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.link:hover{
+    color: var(--text-color);
+}
+.img-card{
+    height: 400px;
+}
+.btn-form{
+    height: 50px;
+    background: #ff686b;
+    color: #000000;
+    width: 15%;
+    font-size: 25px;
+    text-align: center;
+    transition: 0.5s linear;
+}
+.btn-form:hover{
+    border: 2px solid #ff686b;
+    background: transparent;
+    color: #ffffff;
+}
